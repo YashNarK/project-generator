@@ -1,6 +1,6 @@
 import openai
 import sys,os, random,math
-# Add the parent directory of the current script to the Python path
+# Add the root directory to the Python path
 current_script_dir = os.path.dirname(os.path.realpath(__file__))
 root_dir = (current_script_dir.split('\\app'))[0]
 
